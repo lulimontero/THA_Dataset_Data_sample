@@ -1,11 +1,12 @@
 # THA_Dataset_Data_sample
 
-Exercise 3. EDA / Python
+**Exercise 3. EDA / Python:**
 The purpose of this case study is to test your ability to leverage data to generate
 useful insights.
 Attached in THA_Dataset_Data_sample.csv you will find data corresponding to all
 orders which happened during one
 week (Delivered and Canceled) in the city of Glovalia with all important time
+
 References.
 Note that:
 ● Store_address_id is the unique id identifying which store the order was for
