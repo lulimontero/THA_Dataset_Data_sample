@@ -7,25 +7,15 @@ Attached in THA_Dataset_Data_sample.csv you will find data corresponding to all
 orders which happened during one
 week (Delivered and Canceled) in the city of Glovalia with all important time
 
-References.
-Note that:
-● Store_address_id is the unique id identifying which store the order was for
-● Courier_id is the id of the last courier the order was assigned to
-● Vertical
-○ WALL - Partner means the order was for a store which is our partner
-(they receive the orders through the partner web-app before the
-courier arrives there.
-○ WALL - NonPartner means the order was for a store which we have as
-“Fake” (we have no agreements with this store, so the courier needs to
-go inside and order as a regular customer).
-○ QUIERO means the order was done through the central “Anything”
-button on the app where customers can ask us to deliver anything that
-fits into a Glovo backpack. (operationally similar to the
-WALL-NonPartner)
-● Transport is the vehicle type that was used by the courier who was assigned
-the last to the order
-● Activation is when the order enters the pool of active orders that need to be
-assigned to a courier.
+References. Note that:
+- Store_address_id is the unique id identifying which store the order was for
+- Courier_id is the id of the last courier the order was assigned to
+-  Vertical
+       -  ALL - Partner means the order was for a store which is our partner (they receive the orders through the partner web-app before the courier arrives there.
+       -  ALL - NonPartner means the order was for a store which we have as “Fake” (we have no agreements with this store, so the courier needs to go inside and order as a regular customer).
+-  QUIERO means the order was done through the central “Anything” button on the app where customers can ask us to deliver anything that fits into a Glovo backpack. (operationally similar to the WALL-NonPartner)
+-  Transport is the vehicle type that was used by the courier who was assigned the last to the order
+-  Activation is when the order enters the pool of active orders that need to be assigned to a courier.
 ● Number of assignments shows how many times we needed to assign
 different couriers to the orders (e.g. if it is equal to 2, it means that the first
 courier assigned refused to do the order and we needed to find a second
